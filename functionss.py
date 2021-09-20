@@ -11,7 +11,7 @@ def func1():
     print("ur in function 1")
 
 func1()
-print(func1())
+print("\nx",func1())
 
 
 def func2(a, b):

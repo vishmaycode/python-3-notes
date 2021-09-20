@@ -20,7 +20,7 @@ print(num)
 
 num2=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
 
-print(num2[::-4])
+print("x",num2[::-4])
 
 num2.append(20)
 num2.insert(1,4)

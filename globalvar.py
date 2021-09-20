@@ -20,5 +20,5 @@ def harry():
 
 
 harry()
-print(x)                #prints global variable and this time there was no global varaible but it created one and initalsied and
+print("global x is ",x)                #prints global variable and this time there was no global varaible but it created one and initalsied and
                         #printed that without affecting the local harry variable

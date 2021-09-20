@@ -17,12 +17,13 @@ d2 = d1                  #it will assign d1 to d2( that menes d2 and d1 are same
                          # d2 it will aslo get deleted from d1
 d3 = d1.copy()           #thats why use sopy function
 
-print(d1.get("harry"))      #print harry's valure
+print("getharry ", d1.get("harry"))      #print harry's valure
 
 d1.update({"lina":"toffee"})    #insert lina at end
 
-print(d1)
+print("\nfull d1 ",d1)
 
-print(d1.keys())            #prints all keys
-print(d1.items())           #prints keys and its values as tuples in a list
-print(d1.values())          #print values of each key
+print("\nd1 keys  ", d1.keys())            #prints all keys
+print("\nd1 values", d1.values())          #print values of each key
+
+print("\nd1 items  ", d1.items())           #prints keys and its values as tuples in a list
